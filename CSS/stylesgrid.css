@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: grid;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  background-image: url(../images/background4.jpg);
+  background-size: cover;
+  /*posicionamiento de areas*/
+  grid-template-areas: 
+  "header" 
+  "section"
+  "navegacion"
+  "footer"
+  ;
+}
+
+main > *{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*areas*/
+header{
+  grid-area: header;
+}
+
+section{
+  grid-area: section;
+}
+
+nav{
+  grid-area: nav;
+}
+
+footer{
+  grid-area: footer;
+}
+
+/*responsive*/
+/*desktop*/
+@media screen and (min-width:1200px) {
+  main {
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 2fr 1fr 5fr 1fr;
+      grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "section section section"
+      "footer footer footer"
+      ;
+  }
+}
+
+/*celular*/
+@media screen and (min-width:320px) {
+  main {
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+      "header"
+      "nav"
+      "section"
+      "footer"
+      ;
+    }
+}
+
+
+/*nav*/
+.list li {
+  display: inline;
+}
+
+/*index*/
+.mainmerluza {
+  width: 20rem;
+  height: 250px;
+  margin: 10px;
+}
+
+.mainnosotros {
+  width: 20rem;
+  height: 250px;
+  margin: 10px;
+}
+
+.mainservicios {
+  width: 20rem;
+  height: 250px;
+  margin: 10px;
+}
+
+/*servicios*/
+
+.maintextservicios {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.parrafoserv {
+  font-size: 16px;
+}
+
+
+/*hice lo que pude, esta ultima semana estuvo muy pesado en el trabajo y no pude continuar mas. Prometo cambiar todo para la proxima entrega*/
+

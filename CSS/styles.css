@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*cuerpo principal*/
+body {
+  background-image: url(../images/background4.jpg);
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-decoration-color: none;
+  text-decoration: none;
+}
+
+.footer {
+  padding-top: 35rem;
+  text-align: center;
+}
+
+.navegador {
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+}
+
+.list li {
+  display: inline;
+}
+
+.titulo {
+  margin-left: 1rem;
+}
+
+/*index*/
+.imagenesindex {
+  display: inline;
+  margin-bottom: 15rem;
+  margin-top: 15rem;
+  margin-left: 15rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mainmerluza {
+  width: 20rem;
+  height: 250px;
+}
+
+.mainnosotros {
+  width: 20rem;
+  height: 250px;
+}
+
+.mainservicios {
+  width: 20rem;
+  height: 250px;
+}
+
+/*productos*/
+
+.mainproductos {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.parrafoprod {
+  font-size: 16px;
+}
+
+.name {
+  margin-left: 2rem;
+}
+
+.listaprod {
+  display: inline-block;
+}
+
+.merluza {
+  width: 300px;
+  height: 150px;
+}
+
+.langostino {
+  width: 300px;
+  height: 150px;
+}
+
+.calamar {
+  width: 300px;
+  height: 150px;
+}
+
+.besugo {
+  width: 300px;
+  height: 150px;
+}
+
+.corvina {
+  width: 300px;
+  height: 150px;
+}
+
+.pescadilla {
+  width: 300px;
+  height: 150px;
+}
+
+/*contacto*/
+
+.informacioncontacto {
+  margin-left: 2rem;
+}
+
+.formulario {
+  margin-left: 3rem;
+  align-items: center;
+}
+
+.botonesform{
+  align-items: flex-start;
+}
+
+.mailsiono{
+  justify-content: right;
+}
+
+.casillanombre{
+  text-align: start;
+  padding: 2rem;
+}
+
+.casillamensajes{
+  padding: 0;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  margin-right: 30rem;
+  align-items: start;
+}
+
+/*nosotros*/
+
+.maintextnosotros {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.parrafonos {
+  font-size: 16px;
+}
+
+/*servicios*/
+
+.maintextservicios {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.parrafoserv {
+  font-size: 16px;
+}

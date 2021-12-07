@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../images/logo-miaseafood1.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <title>Muzio Hnos</title>
+  </head>
+
+  <body>
+    <h1 class="titulo">Muzio Hnos S.A.</h1>
+    <nav class="navegador">
+      <ul class="list">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="informacioncontacto">
+      <h2>Contacto</h2>
+      <ul>
+        <li>Tel: +54 (0223) 480-7007</li>
+        <li>Mar del Plata (7600)</li>
+        <li>Buenos Aires</li>
+        <li>Argentina</li>
+      </ul>
+    </section>
+
+    <main class="formulario">
+      <form action="PHP" method="get">
+        <label class="casillanombre" for="nombre y apellido"></label>
+        <input
+          type="text"
+          name="nombre y apellido"
+          required
+          placeholder="Juan Perez"
+        />
+
+        <label class="casillamail" for="Mail"></label>
+        <input
+          type="text"
+          name="Mail"
+          placeholder="xxxxxx@gmail.com"
+          required
+        />
+
+        <textarea
+          name="Mensaje"
+          id="comentario"
+          cols="60"
+          rows="30"
+          placeholder="Escriba aqui su mensaje"
+          class="casillamensajes"
+        ></textarea>
+
+        <div class="mailsiono">
+          ¿Desea recibir mails sobre las ultimas noticias de la empresa?
+        </div>
+        <label for="si"></label>
+        <input type="checkbox" name="si" value="si" />
+
+        <section class="botonesform">
+          <input type="submit" value="enviar" required />
+          <input type="submit" value="borrar formulario" />
+        </section>
+      </form>
+    </main>
+
+    <footer class="footer">Mar del Plata, Buenos Aires, Argentina</footer>
+  </body>
+</html>
